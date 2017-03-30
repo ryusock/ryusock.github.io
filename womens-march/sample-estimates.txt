@@ -1,0 +1,622 @@
+'Abilene, TX';TX;US;200;200
+'Accident, MD';MD;US;54;54
+'Adak, AK';AK;US;10;10
+'Adrian, MI';MI;US;150;150
+'Ajo, AZ';AZ;US;250;250
+'Alameda, CA';CA;US;8;8
+'Alamosa, CO';CO;US;350;350
+'Albany, CA';CA;US;500;500
+'Albany, NY';NY;US;7000;9000
+'Alexandria, VA';VA;US;17;17
+'Albuquerque, NM';NM;US;3000;15000
+'Alliance, NE';NE;US;100;150
+'Almanor West, CA';CA;US;4;4
+'Alpine, TX';TX;US;96;96
+'Amarillo, TX';TX;US;600;700
+'Amelia Island, FL';FL;US;700;1367
+'Anacortes, WA';WA;US;1200;1200
+'Anchorage, AK';AK;US;2000;3500
+'Angola, IN';IN;US;24;60
+'Ann Arbor, MI';MI;US;11000;11000
+'Annapolis, MD';MD;US;1600;1600
+'Annville, PA';PA;US;30;30
+'Appleton, WI';WI;US;3;3
+'Arden, DE';DE;US;40;50
+'Asbury Park, NJ';NJ;US;6000;6000
+'Asheville, NC';NC;US;7000;10000
+'Ashland, OR';OR;US;15000;15000
+'Aspen, CO';CO;US;200;1000
+'Astoria, OR';OR;US;1300;1600
+'Athens, GA';GA;US;700;5000
+'Athens, OH';OH;US;300;500
+'Atlanta, GA';GA;US;60000;63000
+'Augusta, GA';GA;US;600;600
+'Augusta, ME';ME;US;5000;10000
+'Austin, TX';TX;US;33000;72000
+'Avalon, CA';CA;US;44;44
+'Bailey, CO';CO;US;5;5
+'Bainbridge Island, WA';WA;US;200;350
+'Bakersfield, CA';CA;US;88;150
+'Baltimore, MD';MD;US;5000;5000
+'Bar Harbor, ME';ME;US;50;55
+'Bandon, OR';OR;US;70;70
+'Bayfield, WI';WI;US;427;427
+'Beaufort, NC';NC;US;11;11
+'Beaumont, TX';TX;US;300;300
+'Beaver, PA';PA;US;275;300
+'Beaver Island, MI';MI;US;18;22
+'Bellingham, WA';WA;US;5000;6000
+'Bemidji, MN';MN;US;250;500
+'Bend, OR';OR;US;3000;5000
+'Bennington, VT';VT;US;75;125
+'Bentonville, AR';AR;US;300;600
+'Berkeley, CA';CA;US;200;1000
+'Bethel, AK';AK;US;40;100
+'Bethlehem, CT';CT;US;2;2
+'Bethlehem, PA';PA;US;500;540
+'Bettendorf, IA';IA;US;300;800
+'Beverly Hills, CA';CA;US;250;300
+'Binghamton, NY';NY;US;2000;3000
+'Birmingham, AL';AL;US;5000;10000
+'Bishop, CA';CA;US;600;600
+'Bismarck, ND';ND;US;500;500
+'Black Mountain, NC';NC;US;250;400
+'Block Island, RI';RI;US;60;80
+'Bloomsburg, PA';PA;US;40;60
+'Bluff, UT';UT;US;48;48
+'Boise, ID';ID;US;5000;5000
+'Borrego Springs, CA';CA;US;140;150
+'Boston, MA';MA;US;175000;175000
+'Bozeman, MT';MT;US;13;13
+'Breen, CO';CO;US;1;1
+'Bridgewater, MA';MA;US;12;12
+'Brighton, MI';MI;US;300;300
+'Brattleboro, VT';VT;US;250;250
+'Brookings, OR';OR;US;250;300
+'Broomfield, CO';CO;US;100;200
+'Brownsville, TX';TX;US;300;390
+'Brunswick, ME';ME;US;300;400
+'Buffalo, NY';NY;US;2500;3000
+'Burbank, CA';CA;US;300;300
+'Burns, OR';OR;US;20;20
+'Burnsville, NC';NC;US;80;80
+'Cambridge, MN';MN;US;22;22
+'Canton, NY';NY;US;135;300
+'Cape Henlopen, DE';DE;US;250;250
+'Carbondale, CO';CO;US;200;700
+'Carbondale, IL';IL;US;1000;1785
+'Carmel, CA';CA;US;15;25
+'Casper, WY';WY;US;700;1000
+'Cathlamet, WA';WA;US;2;2
+'Champaign, IL';IL;US;5000;5800
+'Charleston, SC';SC;US;2000;2000
+'Charleston, WV';WV;US;2000;3000
+'Charlotte, NC';NC;US;20000;30000
+'Charlottesville, VA';VA;US;2000;2500
+'Chattanooga, TN';TN;US;1000;3000
+'Chelan, WA';WA;US;400;470
+'Chesapeake Bay, MD';MD;US;1;1
+'Cheyenne, WY';WY;US;1200;2000
+'Chicago, IL';IL;US;250000;250000
+'Chico, CA';CA;US;1000;3000
+'Chillicothe, OH';OH;US;1000;1000
+'Christiansted, St. Croix';VI;US;350;550
+'Cincinnati, OH';OH;US;5000;12000
+'Clare, MI';MI;US;24;75
+'Clarion, PA';PA;US;65;100
+'Clemson, SC';SC;US;500;500
+'Cleveland, OH';OH;US;15000;15000
+'Cobb, CA';CA;US;2;2
+'Cobleskill, NY';NY;US;350;350
+'Cody, WY';WY;US;400;500
+'College Station, TX';TX;US;50;50
+'Colorado Springs, CO';CO;US;7000;7000
+'Columbia, MD';MD;US;100;125
+'Columbia, MO';MO;US;2000;3604
+'Columbia, SC';SC;US;2000;3000
+'Columbus, OH';OH;US;2000;3000
+'Columbus, OH';OH;US;200;200
+'Compton, CA';CA;US;35;45
+'Concord, NH';NH;US;4000;6000
+'Conover, WI';WI;US;1;1
+'Cooperstown, NY';NY;US;200;200
+'Coos Bay, OR';OR;US;200;200
+'Copper Harbor, MI';MI;US;19;36
+'Cordova, AK';AK;US;108;114
+'Corpus Christi, TX';TX;US;24;24
+'Cortez, CO';CO;US;400;504
+'Corvallis, OR';OR;US;100;100
+'Craftsbury, VT';VT;US;15;15
+'Crested Butte, CO';CO;US;350;500
+'Crestone, CO';CO;US;1;1
+'Cruz Bay, St. John';VI;US;200;200
+'Crystal River, FL';FL;US;7;7
+'Dallas, TX';TX;US;5000;8000
+'Davis, WV';WV;US;12;12
+'Dayton, OH';OH;US;3000;3000
+'Daytona Beach, FL';FL;US;100;100
+'Decorah, IA';IA;US;800;1000
+'Delaware, OH';OH;US;127;130
+'Delhi, NY';NY;US;50;120
+'Deming, NM';NM;US;45;50
+'Denton, TX';TX;US;2500;2800
+'Denver, CO';CO;US;100000;200000
+'Des Moines, IA';IA;US;26000;26000
+'Detroit, MI';MI;US;4000;4000
+'Douglas-Saugatuck, MI';MI;US;1200;2500
+'Doylestown, PA';PA;US;1000;2000
+'Driggs, ID';ID;US;1000;1000
+'Dubuque, IA';IA;US;400;400
+'Duluth, MN';MN;US;1500;1700
+'Durango, CO';CO;US;200;1000
+'Eagle Pass, TX';TX;US;30;30
+'East Haddam, CT';CT;US;500;500
+'East Liberty, PA';PA;US;2000;2000
+'East Millinocket, ME';ME;US;4;4
+'Eastport, ME';ME;US;111;111
+'Eastsound, WA';WA;US;250;250
+'Eau Claire, WI';WI;US;250;250
+'El Centro, CA';CA;US;100;100
+'El Morro, NM';NM;US;30;30
+'El Paso, TX';TX;US;1000;2000
+'Elgin, IL';IL;US;200;1000
+'Ellensburg, WA';WA;US;200;275
+'Ellsworth, ME';ME;US;60;60
+'Ely, MN';MN;US;50;50
+'Encinitas, CA (Seacrest)';CA;US;50;50
+'Ephrata, WA';WA;US;250;250
+'Erie, PA';PA;US;2500;4000
+'Esperanza, PR';PR;US;300;350
+'Eugene, OR';OR;US;7000;10000
+'Eureka, CA';CA;US;5000;8000
+'Evanston, WY';WY;US;1;1
+'Fairbanks, AK';AK;US;2000;2000
+'Fairfax, CA';CA;US;25;500
+'Fairfield, IA';IA;US;200;200
+'Fairmont, WV';WV;US;95;95
+'Falmouth, MA';MA;US;1000;1000
+'Fargo, ND';ND;US;1000;3000
+'Fayetteville, AR';AR;US;1000;1000
+'Fernandina Beach, FL';FL;US;1000;1300
+'Flagstaff, AZ';AZ;US;1000;2000
+'Florence, OR';OR;US;300;300
+'Floyd, VA';VA;US;200;200
+'Forks, WA';WA;US;45;45
+'Fort Atkinson, WI';WI;US;200;200
+'Fort Bragg, CA';CA;US;2500;2800
+'Fort Collins, CO';CO;US;600;600
+'Fort Wayne, IN';IN;US;1000;1000
+'Fort Worth, TX';TX;US;5000;6000
+'Francestown, NH';NH;US;134;134
+'Frederick, MD';MD;US;1000;1000
+'Fredonia, NY';NY;US;70;120
+'Fresno, CA';CA;US;2000;2000
+'Friday Harbor, WA';WA;US;1500;1500
+'Gainesville, FL';FL;US;1500;1500
+'Gainesville, FL';FL;US;500;500
+'Galesburg, IL';IL;US;200;500
+'Gila, NM';NM;US;1;1
+'Glens Falls, NY';NY;US;1000;1500
+'Glenwood Springs, CO';CO;US;100;100
+'Gloucester, NJ';NJ;US;200;250
+'Gouldsboro, ME';ME;US;25;45
+'Grand Forks, ND';ND;US;304;304
+'Grand Junction, CO';CO;US;4500;5000
+'Grand Marais, MN';MN;US;97;120
+'Grand Rapids, MI';MI;US;2500;3000
+'Grants Pass, OR';OR;US;1;1
+'Green Bay, WI';WI;US;200;200
+'Green Valley, AZ';AZ;US;350;575
+'Greenfield, MA';MA;US;1000;2000
+'Greensboro, NC';NC;US;3000;6000
+'Greensburg, IN';IN;US;45;65
+'Greenville, SC';SC;US;2000;2000
+'Greenville, NC';NC;US;100;200
+'Gross Pointe, MI';MI;US;1143;1300
+'Gualala, CA';CA;US;203;300
+'Guilford, CT';CT;US;32;32
+'Gulfport, MS';MS;US;300;709
+'Gustavus, AK';AK;US;105;105
+'Hagatna, Guam';GM;US;150;250
+'Haines, AK';AK;US;150;170
+'Halfway, OR';OR;US;31;31
+'Hana, HI';HI;US;30;30
+'Harrisburg, PA';PA;US;900;1109
+'Harrisville, MI';MI;US;5;5
+'Hartford, CT';CT;US;10000;10000
+'Harwich, MA';MA;US;200;200
+'Helena, AR';AR;US;2;2
+'Helena, MT';MT;US;10000;10000
+'Hemet, CA';CA;US;98;98
+'Hilldale, UT';UT;US;1;1
+'Hillsborough, NC';NC;US;200;2000
+'Hilo, HI';HI;US;1500;2200
+'Holden Village, WA';WA;US;47;52
+'Homer, AK';AK;US;900;900
+'Honolulu (Oahu) HI';HI;US;3000;8000
+'Hood River, OR';OR;US;50;50
+'Houghton, MI';MI;US;500;500
+'Houlton, ME';ME;US;45;50
+'Houston, TX';TX;US;20000;23187
+'Howard County, MD';MD;US;100;125
+'Hudson, NY';NY;US;2000;3000
+'Huntsville, AL';AL;US;80;110
+'Huron, SD';SD;US;11;13
+'Idaho Falls, ID';ID;US;500;500
+'Indiana, PA';PA;US;100;200
+'Indianapolis, IN';IN;US;4000;10000
+'Inverness, CA';CA;US;5;5
+'Iowa City, IA';IA;US;1000;1000
+'Isla Vista, CA';CA;US;500;500
+'Issaquah, WA';WA;US;56;56
+'Ithaca, NY';NY;US;8000;10000
+'Jackson, NH';NH;US;300;300
+'Jackson, MS';MS;US;750;5000
+'Jackson Hole, WY';WY;US;1000;1000
+'Jacksonville, FL';FL;US;2000;3000
+'Jefferson City, MO';MO;US;6;7
+'Jerome, AZ';AZ;US;85;100
+'Jonesborough, TN';TN;US;1000;1000
+'Joseph, OR';OR;US;310;310
+'June Lake, CA';CA;US;21;21
+'Juneau, AK';AK;US;1000;1000
+'Kahului, Maui, HI';HI;US;1500;5000
+'Kalamazoo, MI';MI;US;1000;2000
+'Kanab, UT';UT;US;175;175
+'Kansas City, MO';MO;US;5000;10000
+'Kaunakakai (Molokai), HI';HI;US;200;200
+'Kawaihae, HI';HI;US;50;50
+'Keene, NH';NH;US;245;600
+'Kennebunk, ME';ME;US;1000;1000
+'Kent, CT';CT;US;180;200
+'Kent, OH';OH;US;100;100
+'Ketchikan, AK';AK;US;150;200
+'Ketchum, ID';ID;US;1000;1150
+'Key West, FL';FL;US;3000;3500
+'Killington, VT';VT;US;51;112
+'King's Beach, CA';CA;US;500;800
+'Kingston, WA';WA;US;60;60
+'Klamath Falls, Oregon';OR;US;200;300
+'Knoxville, TN';TN;US;2000;5000
+'Kodiak, AK';AK;US;335;400
+'Kona, HI';HI;US;3000;3500
+'Kotzebue, AK';AK;US;35;36
+'La Crosse, WI';WI;US;76;150
+'La Grande, OR';OR;US;104;250
+'Lafayette, CO';CO;US;66;112
+'Lafayette, IN';IN;US;800;1000
+'Laguna Beach, CA';CA;US;3500;4000
+'Lake Havasu City, AZ';AZ;US;35;40
+'Lakeside, OH';OH;US;300;300
+'Lakeville, CT';CT;US;85;100
+'Lamoni, IA';IA;US;18;30
+'Lancaster, NH';NH;US;400;400
+'Lancaster, PA';PA;US;100;2000
+'Lander, WY';WY;US;350;500
+'Langley, WA';WA;US;1200;1300
+'Lansdale, PA';PA;US;3;3
+'Lansing, MI';MI;US;8000;30000
+'Las Cruces, NM';NM;US;200;1500
+'Las Vegas, NV';NV;US;4000;15000
+'Leonia, NJ';NJ;US;100;280
+'Lexington, KY';KY;US;5000;10000
+'Lewes, DE';DE;US;250;250
+'Lewis, NY';NY;US;147;325
+'Lewisburg, PA';PA;US;150;200
+'Lihue (Kauai) HI';HI;US;1500;1500
+'Lilly, PA';PA;US;4;4
+'Lincoln, NE';NE;US;2000;4000
+'Little Rock, AR';AR;US;7000;7000
+'Logan, UT';UT;US;50;100
+'Lompoc, CA';CA;US;100;100
+'Longview, WA';WA;US;200;200
+'Longville, MN';MN;US;67;67
+'Los Angeles, CA';CA;US;200000;750000
+'Louisville, KY';KY;US;5000;5000
+'Loup City, NE';NE;US;100;150
+'Lovell, ME';ME;US;2;2
+'Lovettsville,VA';VA;US;5;5
+'Lubbock, TX';TX;US;350;1000
+'Lubec, ME';ME;US;95;95
+'Lyons, CO';CO;US;25;30
+'Mt. Shasta, CA';CA;US;400;400
+'Mt. Laurel, NJ';NJ;US;20;20
+'Madison, WI';WI;US;75000;100000
+'Manchester, VT';VT;US;50;50
+'Mankato, MN';MN;US;50;140
+'Marfa, TX';TX;US;76;76
+'Martha's Vineyard, MA';MA;US;100;100
+'Marquette, MI';MI;US;200;800
+'Marshall, MN';MN;US;2;2
+'Maryville, IL';IL;US;40;50
+'McCall, ID';ID;US;75;150
+'McMinnville, OR';OR;US;700;1400
+'Melbourne/Brevard County, FL';FL;US;500;500
+'Memphis, TN';TN;US;3000;9000
+'Menomonie, WI';WI;US;200;450
+'Mentone, AL';AL;US;50;50
+'Miami, FL';FL;US;10000;25000
+'Midland, MI';MI;US;400;400
+'Midland, TX';TX;US;50;100
+'Miles City, MT';MT;US;500;500
+'Milford, CT';CT;US;120;120
+'Milhelm, PA';PA;US;50;50
+'Milwaukee, WI';WI;US;1000;1000
+'Minocqua, WI';WI;US;300;300
+'Minturn, CO';CO;US;6;6
+'Missoula, MT';MT;US;80;120
+'Mitchell, IN';IN;US;18;20
+'Moab, UT';UT;US;200;200
+'Mobile, AL';AL;US;900;1000
+'Modesto, CA';CA;US;900;1000
+'Mooresville, NC';NC;US;70;70
+'Monhegan Island,ME';ME;US;22;22
+'Montpelier, VT';VT;US;15000;20000
+'Mora, NM';NM;US;1;1
+'Morganton, NC';NC;US;500;600
+'Morris, MN';MN;US;250;250
+'Moscow, ID';ID;US;2500;2500
+'Mount Vernon, OH';OH;US;20;30
+'Mount Vernon, WA';WA;US;200;1800
+'Murray, KY';KY;US;700;700
+'Nacogdoches, TX';TX;US;200;300
+'Nantucket, MA';MA;US;400;400
+'Napa, CA';CA;US;3000;3000
+'Naples, FL';FL;US;2500;5000
+'Nashville, TN';TN;US;15000;20000
+'Nebraska City, NE';NE;US;3;3
+'Nederland, CO';CO;US;20;35
+'Nevada City, CA';CA;US;100;100
+'New Bern, NC';NC;US;300;700
+'New Haven, CT';CT;US;200;200
+'New Orleans, LA';LA;US;7000;15000
+'New Smyrna Beach, FL';FL;US;1000;1000
+'New York, NY';NY;US;400000;500000
+'Newark, DE';DE;US;1000;1200
+'Newark, NJ';NJ;US;1000;1000
+'Newport, OR';OR;US;1500;1500
+'Nome, AK';AK;US;80;100
+'Norfolk, VA';VA;US;2000;2800
+'Northampton, MA';MA;US;2500;3000
+'Oak Ridge, TN';TN;US;450;550
+'Oakhurst, CA';CA;US;200;201
+'Oakland, CA';CA;US;100000;100000
+'Ocala, FL';FL;US;100;300
+'Ocean City, MD';MD;US;200;600
+'Ocean Shores, WA';WA;US;120;200
+'Ocracoke, NC';NC;US;108;120
+'Ogden, UT';UT;US;200;300
+'Oklahoma City, OK';OK;US;7000;12000
+'Old Saybrook, CT';CT;US;800;1000
+'Olympia, WA';WA;US;10000;10000
+'Omaha, NE';NE;US;12000;18000
+'Oneonta, NY';NY;US;500;500
+'Onley, VA';VA;US;50;50
+'Ontario, CA';CA;US;200;200
+'Orcas Island, WA';WA;US;200;200
+'Orford, NH';NH;US;7;7
+'Orlando, FL';FL;US;3000;8000
+'Owensboro, KY';KY;US;15;30
+'Oxford, MS';MS;US;450;450
+'Pacifica, CA';CA;US;1200;1200
+'Palm Desert, CA';CA;US;1000;1000
+'Palmdale, CA';CA;US;24;24
+'Palmer, AK';AK;US;377;1000
+'Paradox, NY';NY;US;3;3
+'Park City, UT';UT;US;5000;8000
+'Panama City, FL';FL;US;500;500
+'Paoli, IN';IN;US;67;67
+'Paonia, CO';CO;US;40;40
+'Pasadena, CA';CA;US;500;1700
+'Pence, WI';WI;US;1;1
+'Pendelton, OR';OR;US;425;650
+'Pensacola, FL';FL;US;2000;2000
+'Pentwater, MI';MI;US;2;2
+'Peoria, IL';IL;US;1500;2000
+'Pequannock Township, NJ';NJ;US;800;1000
+'Peterborough, NH';NH;US;50;60
+'Petersburg, AK';AK;US;50;80
+'Philadelphia, PA';PA;US;50000;50000
+'Phoenix, AZ';AZ;US;20000;25000
+'Pierre, SD';SD;US;130;135
+'Pikeville, KY';KY;US;100;100
+'Pinedale, WY';WY;US;100;100
+'Pittsburgh, PA';PA;US;25000;25000
+'Pittsfield, MA';MA;US;1500;1500
+'Plattsburgh, NY';NY;US;182;700
+'Plymouth, WI';WI;US;200;200
+'Pocatello, ID';ID;US;1200;1200
+'Point Reyes Station, CA';CA;US;35;85
+'Port Angeles, WA';WA;US;100;200
+'Port Jefferson, NY';NY;US;2000;2000
+'Port Jervis, NY';NY;US;350;500
+'Port Orford, OR';OR;US;280;300
+'Port Townsend, WA';WA;US;300;1000
+'Portales, NM';NM;US;50;50
+'Portland, ME';ME;US;10000;10000
+'Portland, OR';OR;US;70000;100000
+'Portland, OR area';OR;US;55;60
+'Portsmouth, NH';NH;US;3000;5000
+'Potsdam, NY';NY;US;18;22
+'Poughkeepsie, NY';NY;US;4000;7716
+'Prescott, AZ';AZ;US;1200;1200
+'Providence, RI';RI;US;5000;7000
+'Provincetown, MA';MA;US;300;300
+'Quincy, CA';CA;US;50;105
+'Raleigh, NC';NC;US;17000;20000
+'Rapid City, SD';SD;US;1000;2000
+'Reading, PA';PA;US;100;450
+'Red Bank, NJ';NJ;US;200;400
+'Redding, CA';CA;US;300;300
+'Redondo Beach, CA';CA;US;2000;2000
+'Redwood City, CA';CA;US;2500;2500
+'Reno, NV';NV;US;10000;10000
+'Richland, WA';WA;US;1000;2500
+'Richmond, VA';VA;US;2000;2000
+'Ridgecrest, CA';CA;US;180;200
+'Ridgway, CO';CO;US;50;150
+'Riegelsville, PA';PA;US;170;200
+'Riverside, CA';CA;US;4000;4000
+'Roanoke, VA';VA;US;3000;4500
+'Rochester, MN';MN;US;600;1000
+'Rochester, NY';NY;US;1500;2000
+'Rock Springs, WY';WY;US;90;120
+'Rockford, IL';IL;US;1000;1000
+'Romney, WV';WV;US;30;50
+'Roswell, NM';NM;US;2;2
+'Roxbury, CT';CT;US;15;100
+'St. Augustine, FL';FL;US;1000;2000
+'St. Croix, VI';VI;US;250;250
+'St. George, UT';UT;US;1200;1475
+'St. John, VI';VI;US;60;60
+'St. Johnsbury, VT';VT;US;50;70
+'St. Joseph, MI';MI;US;60;60
+'St. Louis, MO';MO;US;10000;20000
+'St. Mary's City, MD';MD;US;10;10
+'St. Mary of the Woods, IN';IN;US;180;200
+'St. Paul/Minneapolis, MN';MN;US;90000;100000
+'St. Petersburg, FL';FL;US;20000;20000
+'Sacramento, CA';CA;US;20000;38000
+'Sag Harbor, NY';NY;US;250;250
+'Salem, OR';OR;US;1000;4200
+'Salem, WI';WI;US;2;2
+'Salida, CO';CO;US;40;50
+'Salinas, CA';CA;US;80;80
+'Salisbury, CT';CT;US;200;434
+'Salt Lake City, UT (1/20)';UT;US;1000;1000
+'Salt Lake City, UT (1/23)';UT;US;6000;10000
+'San Anselmo, CA';CA;US;4;4
+'San Antonio, TX';TX;US;1500;3000
+'San Bernardino, CA';CA;US;80;80
+'San Clemente, CA';CA;US;100;200
+'San Diego, CA';CA;US;30000;40000
+'San Francisco, CA';CA;US;100000;150000
+'San Jose, CA';CA;US;25000;40000
+'San Juan, PR';PR;US;200;400
+'San Luis Obispo, CA';CA;US;7000;10000
+'San Marcos, CA';CA;US;3000;10000
+'San Rafael, CA';CA;US;500;500
+'Sanford, ME';ME;US;100;130
+'Sandpoint, ID';ID;US;800;1000
+'Santa Ana, CA';CA;US;20000;25000
+'Santa Barbara, CA';CA;US;5000;8000
+'Santa Cruz, CA';CA;US;8000;15000
+'Santa Fe, NM';NM;US;10000;17000
+'Santa Rosa, CA';CA;US;5000;5000
+'Sarasota, FL';FL;US;7500;10000
+'Saugatuck, MI';MI;US;200;2000
+'Sault Ste Marie, MI';MI;US;40;40
+'Sausalito, CA';CA;US;3;3
+'Savannah, GA';GA;US;1000;1000
+'Saxaphaw, NC';NC;US;80;80
+'Seaside, CA';CA;US;1000;2000
+'Seattle, WA';WA;US;100000;175000
+'Sedona, AZ';AZ;US;1000;1000
+'Seldovia, AK';AK;US;41;41
+'Selingsgrove, PA';PA;US;119;119
+'Seneca Falls, NY';NY;US;10000;10000
+'Sequim, WA';WA;US;300;500
+'Seward, AK';AK;US;54;70
+'Sharon, PA';PA;US;700;700
+'Sheboygan, WI';WI;US;300;500
+'Show Low, AZ';AZ;US;1;1
+'Shreveport/Bossier, LA';LA;US;200;1000
+'Sicklerville, NJ';NJ;US;200;250
+'Silver City, NM';NM;US;500;500
+'Silverton, CO';CO;US;50;50
+'Sioux Falls, SD';SD;US;3300;3300
+'Sitka, AK';AK;US;700;700
+'Skagway, AK';AK;US;122;122
+'Skykomish, WA';WA;US;8;8
+'Soldotna, AK';AK;US;200;322
+'Sonoma, CA';CA;US;3000;3000
+'South Bend, IN';IN;US;1000;2000
+'South Lake Tahoe, CA';CA;US;500;700
+'South Orange, NJ';NJ;US;2000;2000
+'Southborough, MA';MA;US;50;50
+'Spokane, WA';WA;US;4000;12000
+'Springfield, IL';IL;US;1000;1000
+'Springfield, MA';MA;US;40;40
+'Springfield, MO';MO;US;2000;2000
+'Stamford, CT';CT;US;5000;5000
+'Stanley, ID';ID;US;30;30
+'State College, PA';PA;US;200;500
+'Statesboro, GA';GA;US;200;200
+'Staunton, VA';VA;US;100;150
+'Steamboat Springs, CO';CO;US;1000;1000
+'Syracuse, NY';NY;US;2000;3000
+'Talkeetna, AK';AK;US;25;35
+'Tallahassee, FL';FL;US;14000;18000
+'Taos, NM';NM;US;100;100
+'Tecumseh, MI';MI;US;35;35
+'Telluride, CO';CO;US;200;1000
+'Tenants Harbor, ME';ME;US;50;65
+'Terre Haute, IN';IN;US;200;200
+'The Dalles, OR';OR;US;50;150
+'Tillamook, OR';OR;US;300;300
+'Tisbury, MA';MA;US;100;160
+'Topeka, KS';KS;US;3000;4000
+'Traverse City, MI';MI;US;3000;3000
+'Trenton, NJ';NJ;US;6000;8000
+'Troy, OH';OH;US;150;200
+'Troy, PA';PA;US;6;6
+'Truckee, CA';CA;US;100;200
+'Truth or Consequences, NM';NM;US;150;158
+'Tucson, AZ';AZ;US;15000;15000
+'Tulsa, OK';OK;US;1000;1000
+'Tupper Lake, NY';NY;US;5;5
+'Tuscarora, NV';NV;US;7;7
+'Twisp, WA';WA;US;600;800
+'Ukiah, CA';CA;US;1500;2000
+'Unalakleet, AK';AK;US;38;40
+'Unalaska (Dutch Harbor), AK';AK;US;80;86
+'Union, WA';WA;US;55;60
+'University Park, MD';MD;US;80;80
+'Utica, NY';NY;US;200;300
+'Utqiagvik (Barrow), AK';AK;US;22;35
+'Valdez, AK';AK;US;100;130
+'Vallejo, CA';CA;US;100;200
+'Valparaiso, IN';IN;US;260;500
+'Vancouver, WA';WA;US;150;200
+'Vashon, WA';WA;US;253;270
+'Ventura, CA';CA;US;1700;3000
+'Vermillion, SD';SD;US;500;500
+'Vienna, VA';VA;US;28;35
+'Vieques, PR';PR;US;150;250
+'Vinalhaven, ME';ME;US;76;76
+'Vineyard Haven, MA';MA;US;160;160
+'Visalia, CA';CA;US;500;500
+'Walla Walla, WA';WA;US;2000;2400
+'Walnut Creek, CA';CA;US;3000;10000
+'Washington, DC';DC;US;500000;680000
+'Watertown, NY';NY;US;250;250
+'Watsonville, CA';CA;US;300;500
+'Wausau, WI';WI;US;150;200
+'Wellfleet, MA';MA;US;113;113
+'Wenatchee, WA';WA;US;2000;2000
+'West Chester, PA';PA;US;150;200
+'West Jefferson, NC';NC;US;295;300
+'West Lima, WI';WI;US;1;1
+'West Palm Beach, FL';FL;US;5000;7000
+'Westfield, NJ';NJ;US;1000;2000
+'Westwood, CA';CA;US;7;7
+'Wichita, KS';KS;US;3000;3000
+'Wichita Falls, TX';TX;US;150;150
+'Williamsburg, VA';VA;US;700;1000
+'Willits, CA';CA;US;50;50
+'Wilmington, NC';NC;US;1000;3000
+'Wilmington, OH';OH;US;70;70
+'Wilton, NH';NH;US;100;125
+'Winchester, VA';VA;US;1200;1300
+'Winters, CA';CA;US;200;200
+'Wood Hole, MA';MA;US;1;1
+'Woodstock, NY';NY;US;1000;1000
+'Woodstock, VA';VA;US;400;400
+'Wooster, OH';OH;US;500;1000
+'Wyckoff, NJ';NJ;US;300;500
+'Yakima, WA';WA;US;800;1000
+'Yellow Springs, OH';OH;US;250;250
+'Ypsilanti, MI';MI;US;1200;1200
+'Yucca Valley, CA';CA;US;76;200
+'Yuma, AZ';AZ;US;10;10
+'Zebulon, GA';GA;US;35;35
