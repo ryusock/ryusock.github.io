@@ -1,0 +1,108 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+/* Fonts */
+
+/* Variables */
+$serif: Georgia, serif;
+$sans-serif: Verdana, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.9;
+$base-line-height: 1.6;
+
+$spacing-unit:     40px;
+
+$text-color:       #444;
+$background-color: #EFEFEF;
+$link-color:       blue;
+$brand-color:      indigo;
+$brand-color-light: lighten($brand-color, 10%);
+
+$grey-color:       #969696;
+$grey-color-light: lighten($grey-color, 20%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    700px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+@import "grid";
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $serif;
+  margin: 40px auto;
+  max-width: $content-width;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+}
+
+a:link, a:visited, a:link:active, a:visited:active {
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#underline {
+  display: table;
+  font-family: $serif;
+  padding: 72px 8px 0px 0px;
+  border-bottom: 5px solid $brand-color;
+
+  .brand {
+    display: table-cell;
+
+    h1 {
+      font-size: 5rem;
+      margin: 0;
+      color: #111
+    }
+  }
+}
+
+#bio {
+  margin-top: 24px;
+  margin-bottom: 36px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.section {
+  margin-top: 24px;
+  
+  .title {
+    font-size: $base-font-size * 1.5;
+    font-style: italic;
+  }
+  .summary {
+
+    .thumb {
+      max-width: 300px;
+    }
+  }
+}
+
+// #footer {
+//   text-align: center;
+//   font-size: 0;
+//
+//   a {
+//     display: inline-block;
+//     font-size: 1.6rem;
+//     font-family: $serif;
+//     padding-right: 8px;
+//     padding-left: 8px;
+//     margin: 0;
+//     border-left: 2px solid #7DB4B5;
+//   }
+//   a:first-child {
+//     border-left: none;
+//   }
+// }

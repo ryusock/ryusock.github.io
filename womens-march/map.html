@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="keywords" content="womens,march,inauguration,data,visualization,2017">
-  <meta name="author" content="Sock Ryu">
+  <meta name="author" content="Seokhyeon Ryu">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@sourhoneykey" />
-  <meta name="twitter:title" content="Visualizing the Women's March" />
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@sourhoneykey"/>
+  <meta name="twitter:title" content="Visualizing the Women's March"/>
   <meta name="twitter:description" content="This map shows the counts estimated by local organizers and observers who attended their cities' Women's Marches on Saturday, January 21, 2017." />
   <meta name="twitter:image" content="http://ryusock.github.io/womens-march/preview.jpg" />
   <meta property="og:title" content="Visualizing the Women's March crowd estimates at US cities"/>
@@ -24,116 +24,116 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYrVGbeK2Bz8I3mZHlyIGkIqKEZ9fweQI&callback=initMap"
   type="text/javascript"></script>
   <script type='text/javascript'>
-   	google.charts.load('upcoming', {'packages': ['geochart']});
-   	google.charts.setOnLoadCallback(drawMarkersMapLow);
-   	google.charts.setOnLoadCallback(drawMarkersMapHigh);
-   	var isLow = true;
+     google.charts.load('upcoming', {'packages': ['geochart']});
+     google.charts.setOnLoadCallback(drawMarkersMapLow);
+     google.charts.setOnLoadCallback(drawMarkersMapHigh);
+     var isLow = true;
 
-   	function httpGetAsync(theUrl, callback) {
-    	var xmlHttp = new XMLHttpRequest();
-    	xmlHttp.onreadystatechange = function() {
+     function httpGetAsync(theUrl, callback) {
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.onreadystatechange = function() {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-        	callback(xmlHttp.responseText);
-    	}
-    	xmlHttp.open("GET", theUrl, true); // true for asynchronous
-    	xmlHttp.send(null);
-		}
-		httpGetAsync("http://ryusock.github.io/womens-march/crowd-estimates.txt", readText)
+          callback(xmlHttp.responseText);
+      }
+      xmlHttp.open("GET", theUrl, true); // true for asynchronous
+      xmlHttp.send(null);
+    }
+    httpGetAsync("http://ryusock.github.io/womens-march/crowd-estimates.txt", readText)
 
-		var rows = []
-		var lowArray = [["Latitude", "Longitude", "City", "Crowd Estimate (Low)"]];
-		var highArray = [["Latitude", "Longitude", "City", 'Crowd Estimate (High)']];
-		function readText(text) {
-			rows = text.split("\n");
-			for (i = 0; i < rows.length; i++) {
-				var r = rows[i].split(";");
-				var location = r[0].replace(/'/g, "");
-				var lat = parseFloat(r[1]);
-				var lng = parseFloat(r[2]);
-				var lowcount = parseInt(r[5]);
-				var highcount = parseInt(r[6]);
-				if (location.length !== 0) {
-					lowArray.push([lat, lng, location, lowcount]);
-					highArray.push([lat, lng, location, highcount]);
-				}
-			}
+    var rows = []
+    var lowArray = [["Latitude", "Longitude", "City", "Crowd Estimate (Low)"]];
+    var highArray = [["Latitude", "Longitude", "City", 'Crowd Estimate (High)']];
+    function readText(text) {
+      rows = text.split("\n");
+      for (i = 0; i < rows.length; i++) {
+        var r = rows[i].split(";");
+        var location = r[0].replace(/'/g, "");
+        var lat = parseFloat(r[1]);
+        var lng = parseFloat(r[2]);
+        var lowcount = parseInt(r[5]);
+        var highcount = parseInt(r[6]);
+        if (location.length !== 0) {
+          lowArray.push([lat, lng, location, lowcount]);
+          highArray.push([lat, lng, location, highcount]);
+        }
+      }
 
-		}
+    }
 
     function drawMarkersMapLow() {
-    	var data = google.visualization.arrayToDataTable(lowArray);
+      var data = google.visualization.arrayToDataTable(lowArray);
 
-    	var options = {
-      	region: 'US',
-      	displayMode: 'markers',
-      	sizeAxis: {maxSize: 20, maxValue: 750000},
-      	colorAxis: {colors: ['green', '0147FA', '#0000FF', '#0000CD', '#00008B']}
-   		};
+      var options = {
+        region: 'US',
+        displayMode: 'markers',
+        sizeAxis: {maxSize: 20, maxValue: 750000},
+        colorAxis: {colors: ['green', '0147FA', '#0000FF', '#0000CD', '#00008B']}
+       };
 
-    	var chart = new google.visualization.GeoChart(document.getElementById('lowDiv'));
-    	chart.draw(data, options);
-  	};
+      var chart = new google.visualization.GeoChart(document.getElementById('lowDiv'));
+      chart.draw(data, options);
+    };
 
-  	function drawMarkersMapHigh() {
-    	var data = google.visualization.arrayToDataTable(highArray);
+    function drawMarkersMapHigh() {
+      var data = google.visualization.arrayToDataTable(highArray);
 
-    	var options = {
-      	region: 'US',
-      	displayMode: 'markers',
-      	sizeAxis: {maxSize: 20, maxValue: 750000},
-      	colorAxis: {colors: ['green', '0147FA', '#0000FF', '#0000CD', '#00008B']}
-   		};
+      var options = {
+        region: 'US',
+        displayMode: 'markers',
+        sizeAxis: {maxSize: 20, maxValue: 750000},
+        colorAxis: {colors: ['green', '0147FA', '#0000FF', '#0000CD', '#00008B']}
+       };
 
-    	var chart = new google.visualization.GeoChart(document.getElementById('highDiv'));
-    	chart.draw(data, options);
-    	document.getElementById('highDiv').style.display = 'none';
-  	};
+      var chart = new google.visualization.GeoChart(document.getElementById('highDiv'));
+      chart.draw(data, options);
+      document.getElementById('highDiv').style.display = 'none';
+    };
 
-  	function toggleGraph() {
-  		if (isLow) {
-  			document.getElementById('lowDiv').style.display = 'none';
-  			document.getElementById('highDiv').style.display = 'block';
-  			document.getElementById('toggle').innerHTML = 'See Low Estimate';
-  			isLow = false;
-  		} else {
-  			document.getElementById('lowDiv').style.display = 'block';
-  			document.getElementById('highDiv').style.display = 'none';
-  			document.getElementById('toggle').innerHTML = 'See High Estimate';
-  			isLow = true;
-  		}
-  	}
+    function toggleGraph() {
+      if (isLow) {
+        document.getElementById('lowDiv').style.display = 'none';
+        document.getElementById('highDiv').style.display = 'block';
+        document.getElementById('toggle').innerHTML = 'See Low Estimate';
+        isLow = false;
+      } else {
+        document.getElementById('lowDiv').style.display = 'block';
+        document.getElementById('highDiv').style.display = 'none';
+        document.getElementById('toggle').innerHTML = 'See High Estimate';
+        isLow = true;
+      }
+    }
   </script>
   <title>Women's March</title>
 </head>
 
 <body class="march" style="font-family: 'Merriweather', serif;">
 <div class="container">
-	<h1 style="margin-top: 60px; font-size: 50px">Visualizing the Women's March crowd estimates at US cities</h1>
-	<h3>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches on Saturday, January 21, 2017.</h3>
-	<p style="font-size:medium">The largest of these demonstrations appear to have been held in our nation's capital, as well as Los Angeles, New York, Chicago, Boston, Denver, and Seattle. By these estimates, somewhere <b>between 1 and 2 out of every 100 Americans</b> attended the Women's March. These counts were compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at towns and cities that held a Women's March. Hover over markers to view their counts.</p>
+  <h1 style="margin-top: 60px; font-size: 50px">Visualizing the Women's March crowd estimates at US cities</h1>
+  <h3>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches on Saturday, January 21, 2017.</h3>
+  <p style="font-size:medium">The largest of these demonstrations appear to have been held in our nation's capital, as well as Los Angeles, New York, Chicago, Boston, Denver, and Seattle. By these estimates, somewhere <b>between 1 and 2 out of every 100 Americans</b> attended the Women's March. These counts were compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at towns and cities that held a Women's March. Hover over markers to view their counts.</p>
 </div>
 <div class="container">
-	<button id="toggle" style="margin:auto" onclick="toggleGraph()">See High Estimate</button>
-	<div id="lowDiv" style=""></div>
-	<div id="highDiv" style=""></div>
+  <button id="toggle" style="margin:auto" onclick="toggleGraph()">See High Estimate</button>
+  <div id="lowDiv" style=""></div>
+  <div id="highDiv" style=""></div>
 </div>
 <div class="container">
-	<div class="row" style="text-align:center">
-		<div class="col-md-4">
-			<h3>Total who attended the Women's March in the US</h2>
-			<h1 style="color:gray">3,273,694 (Low)</h1>
-			<h1 style="margin-top:5px; color:black">5,175,716 (High)</h1>
-		</div>
-		<div class="col-md-4">
-			<h3>Number of towns and cities that participated in the Women's March</h2>
-			<h1>654</h1>
-		</div>
-		<div class="col-md-4">
-			<h3>Total who attended the 2017 Inaugural Address (1/20)*</h2>
-			<h1 style="color:gray">300,000 (Low)</h1>
-			<h1 style="margin-top:5px; color:black">600,000 (High)</h1>
-		</div>
-	</div>
+  <div class="row" style="text-align:center">
+    <div class="col-md-4">
+      <h3>Total who attended the Women's March in the US</h2>
+      <h1 style="color:gray">3,273,694 (Low)</h1>
+      <h1 style="margin-top:5px; color:black">5,175,716 (High)</h1>
+    </div>
+    <div class="col-md-4">
+      <h3>Number of towns and cities that participated in the Women's March</h2>
+      <h1>654</h1>
+    </div>
+    <div class="col-md-4">
+      <h3>Total who attended the 2017 Inaugural Address (1/20)*</h2>
+      <h1 style="color:gray">300,000 (Low)</h1>
+      <h1 style="margin-top:5px; color:black">600,000 (High)</h1>
+    </div>
+  </div>
 </div>
 <div class="container" style="margin-top:20px; margin-bottom: 60px">
 <p>*Estimate according to analysis of aerial shots comparing the 2017 inaugural address and the 2009 inaugural address. Most experts and observers believe Trump's inauguration saw a third of the attendance for Obama's first inauguration. Here is a <a href="http://www.vox.com/policy-and-politics/2017/1/24/14354036/crowds-presidential-inaugurations-trump-average">link</a> to the source.</p>
