@@ -2,21 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 /* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
 
 /* Variables */
-$serif: Georgia, serif;
-$sans-serif: Verdana, sans-serif;
-$base-font-size:   18px;
+$serif: "Merriweather", Georgia, serif;
+$sans-serif: "Lato", sans-serif;
+$base-font-size:   1.8rem;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.9;
+$small-font-size:  1.5rem;
 $base-line-height: 1.6;
 
 $spacing-unit:     40px;
 
 $text-color:       #444;
 $background-color: #EFEFEF;
-$link-color:       blue;
-$brand-color:      indigo;
+$link-color:       darkturquoise;
+$brand-color:      darkturquoise;
 $brand-color-light: lighten($brand-color, 10%);
 
 $grey-color:       #969696;
@@ -36,73 +37,199 @@ body {
   background-color: $background-color;
   color: $text-color;
   font-family: $serif;
-  margin: 40px auto;
-  max-width: $content-width;
+  margin: 0;
   line-height: $base-line-height;
-  font-size: $base-font-size;
+  font-size: $small-font-size;
 }
 
-a:link, a:visited, a:link:active, a:visited:active {
-  color: $link-color;
-  text-decoration: none;
-  cursor: pointer;
+@media (min-width: 330px) {
+  body {
+    font-size: $base-font-size;
+  }
 }
 
-#underline {
-  display: table;
-  font-family: $serif;
-  padding: 72px 8px 0px 0px;
-  border-bottom: 5px solid $brand-color;
+.container {
+  margin: 0px auto;
+  max-width: $content-width;
+}
 
-  .brand {
-    display: table-cell;
+// .underline {
+//   box-sizing: border-box;
+//   position: relative;
+//   padding: 24px 0;
+//
+//   .inner{
+//     height:100%;
+//     position:absolute;
+//     top: -24px;
+//     left: 20px;
+//     z-index:-10;
+//     h1 {
+//       visibility: hidden;
+//     }
+//   }
+// }
+a, a img {
+  -webkit-transition:  500ms ease-out;
+  -moz-transition:  500ms ease-out;
+  -o-transition:  500ms ease-out;
+  transition:  500ms ease-out;
+}
 
+#top {
+  position: relative;
+
+  a:link, a:visited, a:link:active, a:visited:active {
+    color: $text-color;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
+
+  #brand {
+    padding: 32px 0px 10px 0px;
     h1 {
-      font-size: 5rem;
+      border-left: 16px solid $brand-color;
+      padding-left: 12px;
       margin: 0;
       color: #111
     }
   }
+
+  button {
+    font-size: $base-font-size;
+    font-family: $sans-serif;
+    text-transform: uppercase;
+    margin: 6px 0px;
+    -webkit-transition: background-color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out;
+    transition: background-color 500ms ease-out;
+  }
+  button:hover {
+    background-color: $grey-color-light;
+  }
+
+  .icon {
+    font-size: 3rem;
+    float: right;
+    margin: 0 6px;
+  }
+
+  #contact {
+    margin-bottom: 72px;
+  }
+
+  #scroll {
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    left: 24px;
+    font-family: $sans-serif;
+    font-size: $small-font-size;
+  }
 }
 
-#bio {
-  margin-top: 24px;
-  margin-bottom: 36px;
+@media (min-width: 550px) {
+  #top {
+    height: 100vh;
 
-  a {
+    #brand {
+      padding: 144px 8px 0px 0px;
+    }
+
+    #bio {
+      padding-top: 48px;
+    }
+
+    #scroll {
+      display: block;
+      position: absolute;
+      bottom: 24px;
+      left: 64px;
+    }
+
+  }
+}
+
+#bottom {
+  background-color: #333;
+  color: $background-color;
+  margin: 0 auto;
+
+  a:link, a:visited, a:link:active, a:visited:active {
+    color: $background-color;
     text-decoration: underline;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $link-color;
+    text-decoration: none;
+
+    img {
+      opacity: 0.5;
+    }
+  }
+
+  #projects {
+    padding: 24px 8px 0px 0px;
+  }
+
+  .bordered {
+    border-top: 1px solid $background-color;
+  }
+
+  .section {
+    margin-top: 16px;
+    padding-top: 16px;
+
+    .summary {
+      width: 100%;
+      overflow: auto;
+      font-size: $small-font-size;
+
+      .title {
+        font-size: $base-font-size;
+        margin-bottom: 0.5rem;
+      }
+      .thumb {
+        max-width: 300px;
+        margin: 4px 16px 16px 0px;
+        float: left;
+      }
+      .desc {
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 72px;
   }
 }
 
-.section {
-  margin-top: 24px;
-  
-  .title {
-    font-size: $base-font-size * 1.5;
-    font-style: italic;
-  }
-  .summary {
+@media (min-width: 550px) {
+  #bottom {
+    #projects {
+      padding: 72px 8px 0px 0px;
+    }
 
-    .thumb {
-      max-width: 300px;
+    .section {
+      margin-top: 32px;
+      padding-top: 32px;
+
+      .title {
+        font-size: $base-font-size * 1.4;
+      }
+
+      .thumb {
+        margin: 4px 16px 16px 0px;
+      }
     }
   }
 }
-
-// #footer {
-//   text-align: center;
-//   font-size: 0;
-//
-//   a {
-//     display: inline-block;
-//     font-size: 1.6rem;
-//     font-family: $serif;
-//     padding-right: 8px;
-//     padding-left: 8px;
-//     margin: 0;
-//     border-left: 2px solid #7DB4B5;
-//   }
-//   a:first-child {
-//     border-left: none;
-//   }
-// }

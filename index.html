@@ -1,51 +1,71 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div id="underline">
-    <div class="brand">
+<div id="top">
+  <div id="about" class="container">
+    <div id="brand" class="underline">
       <h1>Seokhyeon Ryu</h1>
-    </div>
+      <!-- <div class="inner"> -->
+        <!-- <h1>Seokhyeon Ryu</h1> -->
+      <!-- </div> -->
     </div>
 
-  <div id="bio">
-    <p>Hi! My name is Seokhyeon, but you can call me by my nickname, Sock. I'm a recent UC Berkeley graduate with an interest in web application development, data science, and information systems. I'm currently based in Metro Detroit.</p>
-    <p>Last summer, I interned as a software engineer at <a href="http://productbio.com/">ProductBio</a>. I was also a web developer at <a href="http://thedesignexchange.org">TheDesignExchange</a> and a data journalist on the <a href="https://dailycal-projects.tumblr.com/">Projects team</a> at <a href="http://dailycal.org">The Daily Californian</a>.</p>
-    <p>Feel free to reach out via <a href="mailto:ryusock@gmail.com" target="_top">email</a>. You can also find me on <a href="https://linkedin.com/in/seokhyeonryu">LinkedIn</a> and <a href="https://github.com/ryusock">GitHub</a>. Check out my <a href="/assets/resume.pdf">resume</a>, too.</p>
+    <div id="bio">
+      <p>Hi! You can call me by my nickname, Sock. I'm a recent UC Berkeley graduate with an interest in web application development, data science, and information systems. I'm currently based in Metro Detroit.</p>
+      <p>Last summer, I interned as a software engineer at <a href="http://productbio.com/">ProductBio</a>. I was also a web developer at <a href="http://thedesignexchange.org">TheDesignExchange</a> and a data journalist on the <a href="https://dailycal-projects.tumblr.com/">Projects Team</a> at <a href="http://dailycal.org">The Daily Californian</a>.</p>
+      <p class="email">Feel free to reach out at <a href="mailto:ryusock@gmail.com" target="_top">ryusock@gmail.com</a>.</p>
+    </div>
+
+    <div id="contact">
+      <div>
+        <button id="resume" onclick="location.href='/assets/resume_sryu.pdf';">Resume&nbsp;&nbsp;<i class="far fa-file-pdf"></i></button>
+        <a class="icon" href="https://linkedin.com/in/seokhyeonryu" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a class="icon" href="https://github.com/ryusock" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
   </div>
 
-  <div id="projects">
-    <h2>Projects</h2>
+  <div id="scroll">
+    <p><span>&darr;</span> Scroll below for projects</p>
+  </div>
+</div>
+
+<div id="bottom">
+  <div class="container">
+    <h3 id="projects">Projects</h3>
 
     <div class="section">
-      <h3 class="title">
+      <h4 class="title">
         <a href="http://projects.dailycal.org/2017/busdelays">Berkeley's Most Unpredictable Buses</a>
-      </h3>
+      </h4>
       <div class="summary">
-        <img class="thumb" src="/assets/busdelays.jpg">
-        <p>I analyzed which buses around UC Berkeley arrive later than expected by polling public bus data every minute for weeks (more than 45,000 bus trips in total). Delays were calculated based on deviation from published bus prediction times, and compared by stop, route, and time of day. Published in <em>The Daily Californian</em>.</p>
+        <a href="http://projects.dailycal.org/2017/busdelays"><img class="thumb" src="/assets/busdelays.jpg"></a>
+        <p class="desc">I analyzed which buses around UC Berkeley arrive later than expected by polling public bus data every minute for weeks (more than 45,000 bus trips in total). Delays were calculated based on deviation from published bus prediction times, and compared by stop, route, and time of day. Published in <em>The Daily Californian</em>.</p>
       </div>
     </div>
 
-    <div class="section">
-      <h3 class="title">
+    <div class="section bordered">
+      <h4 class="title">
         <a href="https://github.com/dailycal-projects/who-owns-berkeley">Analyzing Rent Controls in Berkeley</a>
-      </h3>
+      </h4>
       <div class="summary">
-        <img class="thumb" src="/assets/berkeleyrent.png">
-        <p>I scraped for the City of Berkeley's public database of rent control and parcel information to evaluate which neighborhoods had higher rent controls and compare large landowners.</p>
+        <a href="https://github.com/dailycal-projects/who-owns-berkeley"><img class="thumb" src="/assets/berkeleyrent.png"></a>
+        <p class="desc">I scraped for the City of Berkeley's public database of rent control and parcel information to evaluate which neighborhoods had higher rent controls and compare large landowners.</p>
       </div>
     </div>
 
-    <div class="section">
-      <h3 class="title">
+    <div class="section bordered">
+      <h4 class="title">
         <a href="/womens-march/map.html">Visualizing the Women's March</a>
-      </h3>
+      </h4>
       <div class="summary">
-        <img class="thumb" src="/assets/womensmarch.jpg">
-        <p>Taking aggregated data of locally-reported counts on demonstrations on Inauguration Day, I mapped the demonstrations by location and sized by area.</p>
+        <a href="/womens-march/map.html"><img class="thumb" src="/assets/womensmarch.jpg"></a>
+        <p class="desc">Taking aggregated data of locally-reported counts on demonstrations on Inauguration Day, I mapped the demonstrations by location and sized by area.</p>
       </div>
+    </div>
+
+    <div class="footer">
+      <p>I have also contributed to projects with IEEE, TheDesignExchange, and in ten Berkeley EECS courses.</p>
     </div>
   </div>
-
 </div>
