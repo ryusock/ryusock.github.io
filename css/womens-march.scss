@@ -1,0 +1,36 @@
+---
+---
+@import "master";
+
+body {
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: $sans-serif;
+}
+
+.center {
+  text-align: center;
+  margin-top: 36px;
+  font-family: $sans-serif;
+}
+
+h5 {
+  margin-bottom: 6px;
+}
+
+#toggle {
+  margin: 0px 0px 24px 0px;
+}
+
+.low {
+  color: green;
+  margin-bottom: 6px;
+}
+
+.high {
+  color: #00008B;
+  margin-bottom: 12px;
+}

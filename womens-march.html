@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 <head>
   <meta charset="UTF-8">
   <meta name="keywords" content="womens,march,inauguration,data,visualization,2017">
@@ -9,25 +10,23 @@
   <meta name="twitter:site" content="@sourhoneykey"/>
   <meta name="twitter:title" content="Visualizing the Women's March"/>
   <meta name="twitter:description" content="This map shows the counts estimated by local organizers and observers who attended their cities' Women's Marches on Saturday, January 21, 2017." />
-  <meta name="twitter:image" content="http://ryusock.github.io/womens-march/preview.jpg" />
+  <meta name="twitter:image" content="{{ "/assets/womens-march.jpg" | prepend: site.baseurl }}"/>
   <meta property="og:title" content="Visualizing the Women's March crowd estimates at US cities"/>
   <meta property="og:description" content="This map shows the counts estimated by local organizers and observers who attended their cities' Women's Marches on Saturday, January 21, 2017.">
-  <meta property="og:url" content="http://ryusock.github.io/womens-march/map.html"/>
-  <meta property="og:image" content="http://ryusock.github.io/womens-march/preview.jpg" />
-  <link rel="stylesheet" href="http://ryusock.github.io/font-awesome-4.7.0/font-awesome.min.css">
-  <link rel="shortcut icon" href="http://ryusock.github.io/womens-march/USA-512.png" type="image/x-icon" />
+  <meta property="og:url" content="{{ "/womens-march" | prepend: site.baseurl }}"/>
+  <meta property="og:image" content="{{ "/assets/womens-march.jpg" | prepend: site.baseurl }}"/>
+  <link rel="shortcut icon" href="{{ "/assets/USA-512.png" | prepend: site.baseurl }}" type="image/x-icon" />
+  <link rel="stylesheet" href="{{ "css/womens-march.css" | prepend: site.baseurl }}">
 
-  <link type="text/css" rel="stylesheet" href="../css/bootstrap.css"/>
-  <link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYrVGbeK2Bz8I3mZHlyIGkIqKEZ9fweQI&callback=initMap"
-  type="text/javascript"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYrVGbeK2Bz8I3mZHlyIGkIqKEZ9fweQI&callback=initMap"
+  type="text/javascript"></script> -->
   <script type='text/javascript'>
      google.charts.load('upcoming', {'packages': ['geochart']});
      google.charts.setOnLoadCallback(drawMarkersMapLow);
      google.charts.setOnLoadCallback(drawMarkersMapHigh);
      var isLow = true;
+     var txtLink = "/womens-march/crowd-estimates.txt";
 
      function httpGetAsync(theUrl, callback) {
       var xmlHttp = new XMLHttpRequest();
@@ -38,7 +37,7 @@
       xmlHttp.open("GET", theUrl, true); // true for asynchronous
       xmlHttp.send(null);
     }
-    httpGetAsync("http://ryusock.github.io/womens-march/crowd-estimates.txt", readText)
+    httpGetAsync(txtLink, readText)
 
     var rows = []
     var lowArray = [["Latitude", "Longitude", "City", "Crowd Estimate (Low)"]];
@@ -57,7 +56,6 @@
           highArray.push([lat, lng, location, highcount]);
         }
       }
-
     }
 
     function drawMarkersMapLow() {
@@ -106,38 +104,40 @@
   <title>Women's March</title>
 </head>
 
-<body class="march" style="font-family: 'Merriweather', serif;">
+<body class="march">
 <div class="container">
-  <h1 style="margin-top: 60px; font-size: 50px">Visualizing the Women's March crowd estimates at US cities</h1>
-  <h3>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches on Saturday, January 21, 2017.</h3>
-  <p style="font-size:medium">The largest of these demonstrations appear to have been held in our nation's capital, as well as Los Angeles, New York, Chicago, Boston, Denver, and Seattle. By these estimates, somewhere <b>between 1 and 2 out of every 100 Americans</b> attended the Women's March. These counts were compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the low and high estimates for crowd sizes at towns and cities that held a Women's March. Hover over markers to view their counts.</p>
+  <h1>Visualizing the Women's March crowd estimates at US cities</h1>
+  <p>Local organizers and observers estimated the count of protesters who attended their cities' Women's Marches on Saturday, January 21, 2017.</p>
+  <p>The largest of these demonstrations appear to have been held in the nation's capital, Washington, D.C, as well as Los Angeles, New York, Chicago, Boston, Denver, and Seattle. By these estimates, somewhere <b>between 1 and 2 out of every 100 Americans</b> attended the Women's March. These counts were compiled on a spreadsheet which you can find <a href="https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/edit#gid=0">here</a>. The graphic below shows the <em>low</em> and <em>high</em> estimates for crowd sizes at towns and cities that held a Women's March. Hover over markers to view their counts.</p>
 </div>
-<div class="container">
-  <button id="toggle" style="margin:auto" onclick="toggleGraph()">See High Estimate</button>
+
+<div class="container center">
+  <button id="toggle" onclick="toggleGraph()">See High Estimate</button>
   <div id="lowDiv" style=""></div>
   <div id="highDiv" style=""></div>
 </div>
-<div class="container">
-  <div class="row" style="text-align:center">
+
+<div class="container center">
+  <div class="row">
     <div class="col-md-4">
-      <h3>Total who attended the Women's March in the US</h2>
-      <h1 style="color:gray">3,273,694 (Low)</h1>
-      <h1 style="margin-top:5px; color:black">5,175,716 (High)</h1>
+      <h5>Total US attendance at the Women's March</h5>
+      <h3 class="low">3,273,694 (Low)</h3>
+      <h3 class="high">5,175,716 (High)</h3>
     </div>
     <div class="col-md-4">
-      <h3>Number of towns and cities that participated in the Women's March</h2>
-      <h1>654</h1>
+      <h5>Number of US towns & cities participating in the Women's March</h5>
+      <h3 class="high">654</h3>
     </div>
     <div class="col-md-4">
-      <h3>Total who attended the 2017 Inaugural Address (1/20)*</h2>
-      <h1 style="color:gray">300,000 (Low)</h1>
-      <h1 style="margin-top:5px; color:black">600,000 (High)</h1>
+      <h5>Total attendance at the 2017 Inaugural Address in Washington, D.C.*</h5>
+      <h3 class="low">300,000 (Low)</h3>
+      <h3 class="high">600,000 (High)</h3>
     </div>
   </div>
 </div>
-<div class="container" style="margin-top:20px; margin-bottom: 60px">
-<p>*Estimate according to analysis of aerial shots comparing the 2017 inaugural address and the 2009 inaugural address. Most experts and observers believe Trump's inauguration saw a third of the attendance for Obama's first inauguration. Here is a <a href="http://www.vox.com/policy-and-politics/2017/1/24/14354036/crowds-presidential-inaugurations-trump-average">link</a> to the source.</p>
-<p style="margin-top: 40px; font-size:medium">Copyright © 2017 by Seokhyeon "Sock" Ryu (<a href="http://www.twitter.com/sourhoneykey">@sourhoneykey</a>). All rights reserved. Data collected by Jeremy Pressman (<a href="http://www.twitter.com/djpressman">@djpressman</a>, U of Connecticut) and Erica Chenoweth (<a href="http://www.twitter.com/EricaChenoweth">@EricaChenoweth</a>, U of Denver). Geochart made possible with <a href="https://developers.google.com/chart/">Google Charts API</a>. Here's my <a href="http://ryusock.github.io">website</a> too.</p>
+
+<div class="container">
+  <p>*Estimate according to analysis of aerial shots comparing the 2017 inaugural address and the 2009 inaugural address. Most experts and observers believe Trump's inauguration saw a third of the attendance for Obama's first inauguration. Here is a <a href="http://www.vox.com/policy-and-politics/2017/1/24/14354036/crowds-presidential-inaugurations-trump-average">link</a> to the source.</p>
+  <p>Data collected by Jeremy Pressman (<a href="http://www.twitter.com/djpressman">@djpressman</a>, U of Connecticut) and Erica Chenoweth (<a href="http://www.twitter.com/EricaChenoweth">@EricaChenoweth</a>, U of Denver). Geochart made possible with <a href="https://developers.google.com/chart/">Google Charts API</a>.</p>
 </div>
 </body>
-</html>
