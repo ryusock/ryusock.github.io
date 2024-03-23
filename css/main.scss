@@ -26,17 +26,17 @@ body {
   max-width: $content-width;
 }
 
-a, a img {
-  -webkit-transition:  500ms ease-out;
-  -moz-transition:  500ms ease-out;
-  -o-transition:  500ms ease-out;
-  transition:  500ms ease-out;
+a,
+a img {
+  -webkit-transition: 500ms ease-out;
+  -moz-transition: 500ms ease-out;
+  -o-transition: 500ms ease-out;
+  transition: 500ms ease-out;
 }
 
 button {
   font-size: $base-font-size;
-  font-family: $sans-serif;
-  text-transform: uppercase;
+  font-family: $serif;
   margin: 6px 0px;
   -webkit-transition: background-color 500ms ease-out;
   -moz-transition: background-color 500ms ease-out;
@@ -47,10 +47,13 @@ button:hover {
   background-color: $grey-color-light;
 }
 
-#top {
+.top {
   position: relative;
 
-  a:link, a:visited, a:link:active, a:visited:active {
+  a:link,
+  a:visited,
+  a:link:active,
+  a:visited:active {
     color: $text-color;
     text-decoration: underline;
     cursor: pointer;
@@ -61,7 +64,7 @@ button:hover {
     text-decoration: none;
   }
 
-  #brand {
+  .brand {
     padding: 32px 0px 10px 0px;
     h1 {
       border-left: 14px solid $brand-color; // vertical bar
@@ -75,15 +78,18 @@ button:hover {
 
   .icon {
     font-size: 3rem;
-    float: right;
     margin: 0 6px;
   }
 
-  #contact {
+  .contact {
     margin-bottom: 72px;
+
+    .resume {
+      margin-bottom: 48px;
+    }
   }
 
-  #scroll {
+  .scroll {
     display: block;
     position: absolute;
     bottom: 12px;
@@ -94,33 +100,35 @@ button:hover {
 }
 
 @media (min-width: 550px) {
-  #top {
+  .top {
     height: 100vh;
 
-    #brand {
+    .brand {
       padding: 144px 8px 0px 0px;
     }
 
-    #bio {
-      padding-top: 48px;
+    .bio {
+      margin: 48px 0 24px 0;
     }
 
-    #scroll {
+    .scroll {
       display: block;
       position: absolute;
       bottom: 24px;
       left: 64px;
     }
-
   }
 }
 
-#bottom {
+.bottom {
   background-color: #333;
   color: $background-color;
   margin: 0 auto;
 
-  a:link, a:visited, a:link:active, a:visited:active {
+  a:link,
+  a:visited,
+  a:link:active,
+  a:visited:active {
     color: $background-color;
     text-decoration: underline;
     cursor: pointer;
@@ -135,7 +143,7 @@ button:hover {
     }
   }
 
-  #projects {
+  .projects {
     padding: 56px 8px 0px 0px;
     font-family: $sans-serif;
     font-weight: 600;
